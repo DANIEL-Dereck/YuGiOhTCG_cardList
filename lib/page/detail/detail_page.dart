@@ -50,9 +50,11 @@ class _DetailPageState extends State<DetailPage> {
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  card.description,
-                  style: TextStyle(fontSize: 16.0),
+                Expanded(
+                  child: Text(
+                    card.description,
+                    style: TextStyle(fontSize: 16.0),
+                  ),
                 ),
               ],
             )

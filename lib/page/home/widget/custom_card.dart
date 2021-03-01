@@ -18,7 +18,7 @@ class CustomCard extends StatelessWidget {
             AnimatedOpacity(
               curve: Curves.easeInOut,
               opacity: 1.0,
-              duration: Duration(milliseconds: 2000),
+              duration: Duration(milliseconds: 1500),
               child: GestureDetector(
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(
